@@ -1,8 +1,6 @@
 MENU BEGIN PXEKNIFE
 MENU TITLE PXE Knife 0.0.2
 MENU LABEL ^PXE Knife 0.0.2
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/pxeknife/pxeknife.png
 
 MENU INCLUDE er/plugins/pxeknife/pxeknifemain.menu
