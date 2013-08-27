@@ -1,0 +1,53 @@
+MENU BEGIN HD Imaging (disk cloning)
+MENU TITLE HD Imaging (disk cloning)
+MENU LABEL ^HD Imaging (disk cloning)
+MENU INCLUDE er/plugins/pxeknife/pxeknife/hd-cloning.conf
+MENU END
+
+MENU BEGIN HD Diagnosis (3rd party)
+MENU TITLE HD Diagnosis (3rd party)
+MENU LABEL ^HD Diagnosis (3rd party)
+MENU INCLUDE er/plugins/pxeknife/pxeknife/hd-diagnosis.conf
+MENU END
+
+MENU BEGIN HD Manufacturers Tools
+MENU TITLE HD Manufacturers Tools
+MENU LABEL ^HD Manufacturers Tools
+MENU INCLUDE er/plugins/pxeknife/pxeknife/hd-manufacturers.conf
+MENU END
+
+MENU BEGIN HD Wiping
+MENU TITLE HD Wiping
+MENU LABEL ^HD Wiping
+MENU INCLUDE er/plugins/pxeknife/pxeknife/hd-wiping.conf
+MENU END
+
+MENU BEGIN Memory Tests
+MENU TITLE Memory Tests
+MENU LABEL ^Memory Tests
+MENU INCLUDE er/plugins/pxeknife/pxeknife/memory_test.conf
+MENU END
+
+MENU BEGIN Boot Managers
+MENU TITLE Boot Managers
+MENU LABEL ^Boot Managers
+MENU INCLUDE er/plugins/pxeknife/pxeknife/boot_managers.conf
+MENU END
+
+MENU BEGIN NTFS / Windows Tools
+MENU TITLE NTFS / Windows Tools
+MENU LABEL ^NTFS / Windows Tools
+MENU INCLUDE er/plugins/pxeknife/pxeknife/ntfs_tools.conf
+MENU END
+
+MENU BEGIN Random Utils
+MENU TITLE Random Utils
+MENU LABEL ^Random Utils
+MENU INCLUDE er/plugins/pxeknife/pxeknife/random_utils.conf
+MENU END
+
+MENU BEGIN System Information
+MENU TITLE System Information
+MENU LABEL ^System Information
+MENU INCLUDE er/plugins/pxeknife/pxeknife/system_information.conf
+MENU END
